@@ -2,7 +2,7 @@ from numb3rs import validate
 
 
 def test_ipranges():
-    """Check the validity of IP ranges."""
+    #Check the validity of IP ranges.
     assert validate("255.255.255.255") == True
     assert validate("192.168.1.1") == True
     assert validate("192.168.1.255") == True

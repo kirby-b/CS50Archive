@@ -22,7 +22,7 @@ def main():
 
 
 def readEZ(user_input):
-    """Import CSV and print tabulate grid."""
+    #Import CSV and print tabulate grid.
     with open(user_input, "r") as csvFile:
         table = csv.DictReader(csvFile, delimiter=",")
         # Pass the table as a dict and tell tabulate to use "keys" as headers.

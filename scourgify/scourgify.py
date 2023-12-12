@@ -4,7 +4,7 @@ import csv
 
 
 def main():
-    """Pass the data in the sys.argv to tabulate."""
+    #Pass the data in the sys.argv to tabulate.
     if len(sys.argv) < 3:
         print("Too few command-line arguments")
         sys.exit(1)
@@ -23,7 +23,7 @@ def main():
 
 
 def scourgify(input_file, output_file):
-    """Take the input file and write changes to an output file."""
+    #Take the input file and write changes to an output file.
 
     with open(input_file, "r") as csv_read_file:
         column_data = csv.DictReader(csv_read_file, delimiter=",")
