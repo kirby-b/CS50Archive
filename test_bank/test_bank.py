@@ -6,3 +6,4 @@ def test_value():
     assert value("Hi") == "$20"
     assert value("Hey") == "$20"
     assert value("What is up") == "$100"
+    #asserts values and checks the output

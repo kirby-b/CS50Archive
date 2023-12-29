@@ -7,5 +7,6 @@ def test_isValid():
     assert isValid("AA222!") == False
     assert isValid("Bobby4") == True
     assert isValid("ISeeU2") == True
-
+    #asserts values and checks the output
+    
 #Note to self - use -s for this test and any other test that uses break

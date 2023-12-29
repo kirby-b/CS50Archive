@@ -6,3 +6,4 @@ def test_shorten():
     assert shorten("Reddit") == "Rddt"
     assert shorten("Python") == "Pythn"
     assert shorten("Django") == "Djng"
+    #asserts values and checks the output
