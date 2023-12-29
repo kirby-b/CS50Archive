@@ -5,3 +5,4 @@ if (ans == "42" or ans.lower() == "forty-two" or ans.lower() == "forty two"):
     print("Yes")
 else:
     print("No")
+#Its just a reference to an amazing movie

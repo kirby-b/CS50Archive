@@ -31,3 +31,4 @@ while (True):
             print()
             pass
 print(y + "-{:02d}-".format(int(m)) + "{:02d}".format(int(d)))
+#Giant time formating program

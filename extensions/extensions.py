@@ -17,3 +17,4 @@ elif (fileName.endswith(".txt")):
     print("text/plain")
 else:
     print("application/octet-stream")
+#Detects file extension

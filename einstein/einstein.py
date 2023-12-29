@@ -3,3 +3,4 @@ def main():
     e = m * (300000000**2)
     print(e)
 main()
+#E = mc^2

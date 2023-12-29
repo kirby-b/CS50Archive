@@ -13,3 +13,4 @@ elif (y == "/"):
     print(xFloat / zFloat)
 elif (y == "*"):
     print(xFloat * zFloat)
+#Calculates a math equation from input using a split statement

@@ -7,3 +7,4 @@ elif (greet.startswith("h")):
     print("$20")
 else:
     print("$100")
+#Prints payout based on input

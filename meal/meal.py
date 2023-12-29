@@ -9,6 +9,7 @@ def main():
         print("dinner time")
     else:
         print("")
+        #Tells what time it is
 
 def convert(time):
     extraHours = 0
@@ -22,6 +23,6 @@ def convert(time):
     hours = float(hours) + extraHours
     minuteFloat = float(minute) / 60
     return float(hours) + minuteFloat
-
+    #Converts time to hours
 if __name__ == "__main__":
     main()

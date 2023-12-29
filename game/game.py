@@ -18,3 +18,4 @@ while(True):
     else:
         print("Just right!")
         break
+    #Plays a number guessing game

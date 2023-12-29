@@ -8,3 +8,4 @@ while i < length:
     else:
         print(name[i], end = "")
     i = i + 1
+#Deletes all vowels from words to make them shorter

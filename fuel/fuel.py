@@ -20,8 +20,6 @@ def main():
                 break
         except (ValueError, ZeroDivisionError):
             pass
-
-        #if x > y
-            #reprompt
+        #Takes a number percent and tells you how full the tank is
 
 main()

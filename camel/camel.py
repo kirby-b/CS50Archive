@@ -7,4 +7,5 @@ while i < length:
         print("_" + name[i].lower(), end = "")
     else:
         print(name[i], end = "")
-    i = i + 1;
+    i = i + 1
+#Converts input to snake case

@@ -28,3 +28,4 @@ while (True):
     else:
         print("Calories: " + str(fruits.get(item.lower())))
         break
+    #Determines calories out of a dict of values

@@ -12,6 +12,7 @@ def get_level():
         get_level()
     else:
         return level
+    #Determines difficulty
 
 def generate_integer(level):
     num1 = 0
@@ -40,5 +41,6 @@ def generate_integer(level):
             i = i + 1
             correct = correct + 1
     print("Score: " + str(correct))
+    #Creates a problem based on diffculty
 if __name__ == "__main__":
     main()

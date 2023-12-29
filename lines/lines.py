@@ -16,6 +16,7 @@ def main():
         sys.exit()
     else:
         print(counter(sys.argv[1]))
+    #Gets the file for reading
 
 def counter(python_file):
     ignoredLines = 0
@@ -31,6 +32,6 @@ def counter(python_file):
                 ignoredLines += 1
 
     return int(totalLines[-1][0]) - ignoredLines
-
+    #Outputs number of lines in a file
 if __name__ == "__main__":
     main()

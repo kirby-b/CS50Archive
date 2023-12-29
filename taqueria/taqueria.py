@@ -19,3 +19,4 @@ while (True):
     except(EOFError):
         print()
         break
+    #Calculates price for all items from the dict

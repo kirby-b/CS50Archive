@@ -27,5 +27,5 @@ def isValid(s):
             return False
         i = i + 1
     return True
-
+#Same as plates but for testing
 main()

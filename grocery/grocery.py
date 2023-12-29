@@ -10,3 +10,4 @@ while (True):
         for x in sorted(grocery_list):
             print(str(grocery_list[x]) + " " + x.upper())
         break
+    #Outputs a grocery list and sorts it

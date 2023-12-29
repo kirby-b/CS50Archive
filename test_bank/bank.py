@@ -10,7 +10,7 @@ def value(greet):
         return("$20")
     else:
         return("$100")
-
+#Same as bank but for testing
 
 if __name__ == "__main__":
     main()

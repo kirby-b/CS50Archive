@@ -7,3 +7,4 @@ while(True):
     if owed <= 0:
         print("Change Owed: " + str(abs(owed)))
         break
+    #Gets money and how much is owed

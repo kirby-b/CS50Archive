@@ -15,3 +15,5 @@ def shorten(name):
     return shortened
 if __name__ == "__main__":
     main()
+
+#Same as twttr but for testing

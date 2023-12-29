@@ -24,3 +24,4 @@ sentence = input("Input: ")
 print("Output: ")
 
 print(fig.renderText(sentence))
+#Font editing
